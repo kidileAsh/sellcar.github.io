@@ -1,0 +1,829 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar starts */
+
+.navbar {
+  transition: all 0.4s;
+  background: black;
+}
+
+.navbar .nav-link {
+  color: #e1ad21;
+  font-weight: 100 !important;
+  font-style: normal normal normal 22px/33px Muli;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: black;
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #000 !important;
+  border: 1px solid red !important;
+  border-radius: 0.25rem;
+}
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #062046;
+  }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #fff;
+  }
+  .ontext {
+    padding-top: 10%;
+  }
+}
+
+.header {
+  background: url("../img/slider-bg.jpg");
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-car img {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.ontext {
+  color: #fff;
+  font-family: "Odibee Sans", cursive;
+}
+
+.ontext .text {
+  padding: 15%;
+}
+
+.ontext span {
+  color: black;
+  font-family: "Odibee Sans", cursive;
+}
+.ontext h1 {
+  font-family: "Odibee Sans", cursive;
+}
+.ontext p {
+  font-family: "Mulish", sans-serif;
+}
+
+.ontext .car-left {
+  padding-top: 10%;
+  margin-left: 0%;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar ul .user img {
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.navbar ul .sellbtn {
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
+  color: #000;
+  margin-left: 350px;
+}
+/* Navbar ends */
+
+/* Section two starts */
+.sec2 h1 {
+  font-family: "Odibee Sans", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.sec2 p {
+  font-size: 15px;
+  color: #707070;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+.box {
+  padding: 60px 0px;
+}
+
+.sub-box {
+  background-color: #1e1d1b;
+  background-image: linear-gradient(315deg, #1e1d1b 0%, #cc9934 74%);
+  color: white;
+  border-radius: 0;
+  padding: 30px;
+  margin: 0px;
+}
+
+/* .box-part2{
+    background-image: url('../img/Rectangle\ 12.svg');
+    border-radius:0;
+    padding:22px;
+    margin: 0px;
+}
+.box-part3{
+    background-image: url('../img/Rectangle\ 12.svg');
+    border-radius:0;
+    padding:22px;
+    margin: 0px;
+} */
+.img1,
+.img2,
+.img3 {
+  padding: 10px 0 25px 0;
+}
+.title {
+  font-family: "Odibee Sans", cursive;
+}
+.text {
+  font-family: "Mulish", sans-serif;
+}
+.over-text {
+  color: #e1ad21;
+  text-align: center;
+  background: white;
+  margin: -5% 40% 0 40%;
+  font-family: "Odibee Sans", cursive;
+  font-size: 24px;
+}
+/* section ends */
+
+/* services starts */
+
+.bgservice {
+  background: url("../img/gbg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: end;
+  padding: 5% 10%;
+}
+
+.p1 p {
+  font-family: "Mulish", sans-serif;
+}
+.p2 p {
+  font-family: "Mulish", sans-serif;
+  text-align: left;
+}
+.p1 h5 {
+  font-family: "Odibee Sans", cursive;
+}
+.p2 h5 {
+  font-family: "Odibee Sans", cursive;
+  text-align: left;
+}
+
+.header h1 {
+  font-family: "Odibee Sans", cursive;
+}
+
+.bgservice li {
+  list-style-type: none;
+}
+.img-center {
+  text-align: center;
+}
+
+.bgservice .img-center img {
+  height: 380px;
+}
+
+.bgservice .center-img {
+  text-align: center;
+}
+/* services ends */
+
+/* Popular brands starts */
+.popular_brand .bottom-border {
+  margin: 0 4% 3% 4%;
+  height: 0px;
+  border: 1px solid #707070;
+  opacity: 0.5;
+}
+.popular_brand .border-div h1 {
+  font-family: "Odibee Sans", cursive;
+  text-align: center;
+  margin-top: 1%;
+}
+.popular_brand h2 {
+  font-family: "Odibee Sans", cursive;
+  text-align: center;
+  margin-top: 5%;
+}
+.popular_brand .border-div {
+  border: 1px black solid;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-top: 5%;
+  padding: 1% 0 2% 0;
+}
+.owl-dots {
+  display: none;
+}
+.brand-part {
+  margin: 0 0 5% 0;
+}
+.brand-part h5 {
+  text-align: center;
+  font-family: "Odibee Sans", cursive;
+}
+.brand-part img {
+  margin: 0 0 10% 35%;
+  width: 35%;
+  height: 40%;
+}
+.brand-part p {
+  margin: 4% 10% 0 10%;
+  color: #707070;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  text-align: justify;
+  opacity: 1;
+}
+
+/* Popular brands starts */
+
+/* Cards starts */
+
+#cards_landscape_wrap-2 {
+  text-align: center;
+  background: #f7f7f7;
+}
+
+#cards_landscape_wrap-2 .container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#cards_landscape_wrap-2 a {
+  text-decoration: none;
+  outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  width: 100%;
+  height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+  text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 30px 18px;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  background: #ffffff;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  text-align: justify;
+  font-family: "Odibee Sans", cursive;
+}
+
+#cards_landscape_wrap-2 h1 {
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: 0px;
+  color: #11181e;
+  text-align: center;
+}
+
+.text-container .p1 {
+  text-align: justify;
+  color: gray;
+}
+
+.text-container .p2 {
+  text-align: left;
+  font: normal normal normal 20px/22px Odibee Sans;
+  letter-spacing: 0px;
+  color: #1baa29;
+  opacity: 1;
+  top: 5199px;
+  left: 1209px;
+  width: 85px;
+  height: 22px;
+}
+
+.text-container .p3 {
+  text-align: left;
+  font: normal normal normal 14px/20px Muli;
+  letter-spacing: 0px;
+  color: #11181e;
+  opacity: 1;
+  top: 5236px;
+  left: 1209px;
+  width: 274px;
+  height: 45px;
+  border-bottom: 2px solid #9f9f9f;
+}
+
+.text-container .bottom-img {
+  text-align: left;
+  font: normal normal normal 12px/18px Muli;
+  letter-spacing: 0px;
+  color: #727272;
+  opacity: 1;
+}
+
+.text-container .bottom-img img {
+  margin-left: 3%;
+}
+.text-box button {
+  font: normal normal normal 14px/20px Muli;
+  color: #ffffff;
+  background: #e1c71d;
+  border: none;
+  padding: 3% 6%;
+  opacity: 1;
+  position: absolute;
+  right: 15px;
+}
+
+/* Cards ends */
+
+/* Feedback Section starts */
+.customer_feed {
+  margin: 5% 0;
+}
+.feedback h5 {
+  font-family: "Odibee Sans", cursive;
+  color: #e1ad21;
+  font-size: 24px;
+}
+.feedback h1 {
+  font-family: "Odibee Sans", cursive;
+}
+.feedback .para1 {
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+  margin: 5% 16% 5% 0;
+}
+.feedback .para2 {
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+  margin: 5% 16% 5% 0;
+  font-size: 13px;
+}
+.head-border {
+  border-bottom: 3px solid #e1ad21;
+  width: 10%;
+}
+.rect1 img {
+  width: 70%;
+  position: relative;
+  top: 60px;
+  left: 35%;
+  z-index: 1;
+}
+.rect1 h2 {
+  font-family: "Odibee Sans", cursive;
+  color: black;
+  position: absolute;
+  z-index: 2;
+  top: 132px;
+  left: 46%;
+}
+.rect1 p {
+  font-family: "Mulish", sans-serif;
+  color: black;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 65%;
+  left: 35%;
+  padding: 0px 6%;
+}
+.rect2 img {
+  width: 70%;
+  position: relative;
+  z-index: -1;
+  top: 61px;
+  right: 17px;
+}
+.rect2 h2 {
+  font-family: "Odibee Sans", cursive;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 132px;
+  left: 20%;
+}
+.rect2 p {
+  font-family: "Mulish", sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 65%;
+  left: 15%;
+  padding: 0px 6%;
+}
+
+/* Feedback Section ends */
+
+/* <!-- Vehicles section starts --> */
+.blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -25px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #0d0d0d;
+  border: 1px solid #0d0d0d;
+  opacity: 1;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.blog .carousel-indicators .active {
+  background: #0d0d0d;
+}
+.blog .carousel-indicators .li3 {
+  background: #e1ad21;
+  border: 1px solid #e1ad21;
+  width: 2%;
+  border-radius: 30%;
+  opacity: 1;
+}
+.vehicles {
+  margin-top: 10%;
+}
+.vehicles h1 {
+  text-align: center;
+  font-family: "Odibee Sans", cursive;
+}
+.vehicles p {
+  color: #707070;
+  margin-left: 33%;
+  margin-right: 30%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+.carousel-item .sub-div {
+  padding: 0 !important;
+}
+/* .carousel-item .sub-div img{
+    width: 100%;
+} */
+.carousel-item button {
+  font-family: "Odibee Sans", cursive;
+  color: black;
+  background: #e1ad21;
+  border: none;
+  padding: 4% 5%;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.img-text {
+  margin-top: -45%;
+  padding: 10%;
+}
+.img-text h6 {
+  text-align: left;
+  font-family: "Odibee Sans", cursive;
+  font-size: 28px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.img-text p {
+  text-align: left;
+  font-family: "Odibee Sans", cursive;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #e1ad21;
+  opacity: 1;
+  margin: 0 !important;
+}
+.img-text .bottom-circle {
+  display: inline;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 1;
+}
+/* <!-- Vehicles section ends --> */
+
+/* Purchase car section starts */
+.purchase {
+  margin-top: 10%;
+}
+.purchase_car h1 {
+  text-align: center;
+  font-family: "Odibee Sans", cursive;
+}
+.purchase_car p {
+  color: #707070;
+  margin-left: 33%;
+  margin-right: 30%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+.purchase_car .first_div img {
+  width: 62%;
+  margin-left: 43%;
+}
+.purchase_car .first_div h2 {
+  margin-left: 58%;
+  margin-top: -52%;
+  color: white;
+  font-family: "Odibee Sans", cursive;
+  font-size: 35px;
+}
+.purchase_car .first_div p {
+  margin-left: 48%;
+  margin-right: 22px;
+  margin-top: 5%;
+  color: #acacac;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Mulish", sans-serif;
+}
+.purchase_car .second_div img {
+  width: 62%;
+}
+.purchase_car .second_div h2 {
+  margin-left: 22%;
+  margin-top: -52%;
+  color: black;
+  font-family: "Odibee Sans", cursive;
+  font-size: 35px;
+}
+.purchase_car .second_div p {
+  margin-right: 45%;
+  margin-left: 7%;
+  margin-top: 5%;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Mulish", sans-serif;
+}
+.purchase_car .view_need {
+  margin: 8% 0 0 62%;
+  background-color: #e1ad21;
+  color: #ffff;
+  opacity: 1;
+  width: 130px;
+  height: 60px;
+  font-family: "Mulish", sans-serif;
+  border: none;
+}
+.purchase_car .brand_new {
+  margin: 8% 0 0 22%;
+  background-color: black;
+  color: #ffff;
+  opacity: 1;
+  width: 130px;
+  height: 60px;
+  font-family: "Mulish", sans-serif;
+  border: none;
+}
+/* .purchase_car2{
+    margin-top: 8%;
+} */
+.purchase_car2 h2 {
+  text-align: center;
+  font-family: "Odibee Sans", cursive;
+  margin-top: 15%;
+}
+.purchase_car2 p {
+  color: #6a6a6a;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin: 0 9% 3% 9%;
+}
+.purchase_car2 a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #e1ad21;
+  opacity: 1;
+  border-bottom: 1px #e1ad21 solid;
+  margin-left: 40%;
+}
+
+/* Purchase car section ends */
+
+/* Footer starts */
+.footer {
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+.footer .footer-img1 img {
+  width: 85%;
+  margin-left: 20%;
+}
+.footer .footer-img2 img {
+  width: 85%;
+  margin-right: 20%;
+}
+.footer-contentdiv1 {
+  color: white;
+  margin: -60% 24% 0 40%;
+}
+.footer-contentdiv1 h1,
+h2,
+h5 {
+  font-family: "Odibee Sans", cursive;
+}
+.footer-contentdiv1 p {
+  font-family: "Mulish", sans-serif;
+  font-size: 13px;
+}
+.footer .footer-contentdiv2 {
+  margin-top: -65%;
+  margin-left: 10%;
+}
+.footer-contentdiv2 form ::placeholder {
+  font-family: "Mulish", sans-serif;
+  text-align: left;
+  letter-spacing: 0px;
+  color: black;
+  font-size: 13px;
+}
+.footer-contentdiv2 form input {
+  margin: 2%;
+  width: 70%;
+  padding: 2%;
+  background: #facc6b;
+  border: 1px solid #0d0d0d;
+  border-radius: 3px;
+}
+.footer-contentdiv2 h1 {
+  margin-left: 2%;
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.footer-contentdiv2 button {
+  background: #ffffff;
+  color: #0d0d0d;
+  font-size: 13px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  margin: 2% 0 0 2%;
+  padding: 2% 4%;
+  opacity: 1;
+}
+.newsletter h1 {
+  font-family: "Odibee Sans", cursive;
+  text-align: center;
+  padding-top: 10%;
+}
+.newsletter form input {
+  margin: 2% 0 0 32%;
+  width: 30%;
+  height: 7vh;
+  border: none;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 2% 2%;
+  border: 2px #e1ad21 solid;
+}
+.newsletter button {
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  border: 2px #e1ad21 solid;
+  background-color: white;
+  margin: 2% 0 10% 0;
+  padding: 1% 2%;
+}
+.newsletter img {
+  padding-left: 33%;
+  width: 55%;
+  margin-top: -5%;
+  margin: -5% 0 5% 8%;
+}
+.newsletter-div h6 {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #0d0d0d;
+  opacity: 1;
+}
+.copyright {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  text-align: center;
+  margin-top: 2%;
+}
+.sec2 .sub-box {
+  padding: 0 !important;
+}
+
+/* Footer ends */
